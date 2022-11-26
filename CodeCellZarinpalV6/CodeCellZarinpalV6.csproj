@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+		<PackageId>Codecell.Getway.Zarinpal</PackageId>
+		<Authors>Sohrab Gheisari</Authors>
+		<Company>Codecell</Company>
+		<Product>Codecell.Getway.Zarinpal</Product>
+		<Description>online payment based on zarinpal</Description>
+		<PackageIcon>logo128.png</PackageIcon>
+		<PackageTags>payment</PackageTags>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<Version>6.0.0</Version>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\logo128.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Include="..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CodecellShare\CodecellShare.csproj" />
+  </ItemGroup>
+
+</Project>
