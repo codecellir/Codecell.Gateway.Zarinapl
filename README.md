@@ -5,7 +5,10 @@ A light weight library to help online payment using *[Zarinpal](https://www.zari
 You can download the latest version of `Codecell.Getway.Zarinpal` from [Github repository](https://github.com/hrsh/Msh.Zarinpal.Api).
 To install via `nuget`:
 ```
-Install-Package Codecell.Getway.Zarinpal -Version 1.0.0
+Install-Package Codecell.Getway.Zarinpal -Version 6.0.0
+```
+```
+Install-Package Codecell.Getway.Zarinpal -Version 7.0.0
 ```
 Install from [Nuget](https://www.nuget.org/packages/Codecell.Getway.Zarinpal/) directly.
 
