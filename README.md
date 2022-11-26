@@ -2,7 +2,7 @@
 A light weight library to help online payment using *[Zarinpal](https://www.zarinpal.com)* for `net6 and net7` web application.
 
 ## Installation
-You can download the latest version of `Codecell.Getway.Zarinpal` from [Github repository](https://github.com/hrsh/Msh.Zarinpal.Api).
+You can download the latest version of `Codecell.Getway.Zarinpal` from [Github repository](https://github.com/codecellir/Codecell.Gateway.Zarinapl).
 To install via `nuget`:
 ```
 Install-Package Codecell.Getway.Zarinpal -Version 6.0.0
