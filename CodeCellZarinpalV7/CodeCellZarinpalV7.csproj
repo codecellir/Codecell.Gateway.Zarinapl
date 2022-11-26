@@ -12,7 +12,7 @@
     <PackageIcon>logo128.png</PackageIcon>
     <PackageTags>payment</PackageTags>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <Version>7.0.0</Version>
+    <Version>7.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
